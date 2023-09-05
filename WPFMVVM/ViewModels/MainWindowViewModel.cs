@@ -34,7 +34,7 @@ namespace WPFMVVM.ViewModels
 
         public MainWindowViewModel()
         {
-            CloseApplicationCommand = new RelayCommand(OnCloseApplicationCommandExecuted, CanCloseApplicationCommandExecute);
+            CloseApplicationCommand = new RelayCommand(OnCloseApplicationCommandExecuted, CanCloseApplicationCommandExecute); 
         }
     }
 }
