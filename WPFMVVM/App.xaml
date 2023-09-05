@@ -1,0 +1,10 @@
+﻿<Application x:Class="WPFMVVM.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPFMVVM"
+             StartupUri="Views/Windows/MainWindow.xaml">
+    <Application.Resources>
+        
+    </Application.Resources>
+<!--Scaffold-DbContext "Host=localhost;Port=5432;Database=MVVMData;Username=postgres;Password=1256" Npgsql.EntityFrameworkCore.PostgreSQL -o Data -force-->
+</Application>
